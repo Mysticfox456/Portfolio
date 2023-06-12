@@ -15,17 +15,18 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
     <meta
       name="description"
       content="About Miranda Talbot, a front-end developer based in Canada"
     />
-    <title>About Me</title>
+    <title>About Me - Miranda Talbot</title>
   </head>
   <body>
+ <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Miranda Talbot</a>
+        <a class="navbar-brand" href="/" title="Homepage">Miranda Talbot</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,20 +41,32 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="/" title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About me</a>
+              <a
+                class="nav-link active"
+                href="/about.html"
+                title="About Miranda Talbot"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Contact Miranda Talbot"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from Sarnia, Ontario</h3>
+    <h3 class="text-center">Front-end developer from Ontario, Canada</h3>
     <div class="about-paragraphs text-center">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
@@ -66,17 +79,23 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="images/gardening.png"
-            class="img-fluid p-2 shadow rounded"
+            src="/images/gardening.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="Gardening project"
           />
         </div>
         <div class="col-sm-4">
-          <img src="images/weather.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="/images/weather.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="Weather project"
+          />
         </div>
         <div class="col-sm-4">
           <img
-            src="images/world-clock.png"
-            class="img-fluid p-2 shadow rounded"
+            src="/images/world-clock.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="World Clock project"
           />
         </div>
       </div>
